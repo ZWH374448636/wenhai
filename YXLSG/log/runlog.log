@@ -1,0 +1,754 @@
+2018-02-07 11:06:43,335  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:06:43,335  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:06:43,335  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:06:43,335  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:06:43,408  - LogInCase.py : WARNING  
+2018-02-07 11:06:43,408  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:06:43,408  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:06:43,408  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:06:43,408  - LogInCase.py : INFO  Begin time : 2018-02-07  11:06:43  Wednesday
+2018-02-07 11:06:43,420  - LogInCase.py : WARNING  
+2018-02-07 11:06:43,420  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:06:43,420  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:06:43,420  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:06:43,421  - LogInCase.py : INFO  Begin time : 2018-02-07  11:06:43  Wednesday
+2018-02-07 11:06:43,450  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:06:43,450  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:06:43,450  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:06:43,450  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:06:43,450  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:06:43  Wednesday
+2018-02-07 11:06:43,711  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:06:43,713  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:06:43,713  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:06:43,713  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:06:43,713  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:06:43  Wednesday
+2018-02-07 11:08:39,394  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:08:39,394  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:08:39,394  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:08:39,394  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:08:39,444  - LogInCase.py : WARNING  
+2018-02-07 11:08:39,444  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:08:39,444  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:08:39,444  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:08:39,444  - LogInCase.py : INFO  Begin time : 2018-02-07  11:08:39  Wednesday
+2018-02-07 11:08:39,456  - LogInCase.py : WARNING  
+2018-02-07 11:08:39,456  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:08:39,456  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:08:39,456  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:08:39,456  - LogInCase.py : INFO  Begin time : 2018-02-07  11:08:39  Wednesday
+2018-02-07 11:08:39,474  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:08:39,474  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:08:39,476  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:08:39,476  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:08:39,476  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:08:39  Wednesday
+2018-02-07 11:08:39,650  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:08:39,650  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:08:39,650  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:08:39,650  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:08:39,650  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:08:39  Wednesday
+2018-02-07 11:08:59,888  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:08:59,888  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:08:59,888  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:08:59,888  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:08:59,934  - LogInCase.py : WARNING  
+2018-02-07 11:08:59,936  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:08:59,936  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:08:59,936  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:08:59,936  - LogInCase.py : INFO  Begin time : 2018-02-07  11:08:59  Wednesday
+2018-02-07 11:08:59,944  - LogInCase.py : WARNING  
+2018-02-07 11:08:59,944  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:08:59,944  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:08:59,944  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:08:59,946  - LogInCase.py : INFO  Begin time : 2018-02-07  11:08:59  Wednesday
+2018-02-07 11:08:59,964  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:08:59,964  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:08:59,966  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:08:59,966  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:08:59,966  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:08:59  Wednesday
+2018-02-07 11:09:00,105  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:09:00,107  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:09:00,107  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:09:00,107  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:09:00,107  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:09:00  Wednesday
+2018-02-07 11:10:37,592  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:10:37,592  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:10:37,592  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:10:37,592  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:10:37,654  - LogInCase.py : WARNING  
+2018-02-07 11:10:37,654  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:10:37,654  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:10:37,654  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:10:37,654  - LogInCase.py : INFO  Begin time : 2018-02-07  11:10:37  Wednesday
+2018-02-07 11:10:37,663  - LogInCase.py : WARNING  
+2018-02-07 11:10:37,663  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:10:37,663  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:10:37,663  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:10:37,663  - LogInCase.py : INFO  Begin time : 2018-02-07  11:10:37  Wednesday
+2018-02-07 11:10:37,681  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:10:37,681  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:10:37,681  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:10:37,683  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:10:37,683  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:10:37  Wednesday
+2018-02-07 11:10:37,845  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:10:37,845  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:10:37,845  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:10:37,845  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:10:37,845  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:10:37  Wednesday
+2018-02-07 11:10:37,845  - Mgr_LogInCase.py : INFO  case:Mgr_LogInCase
+2018-02-07 11:12:33,655  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:12:33,655  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:12:33,655  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:12:33,655  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:12:33,709  - LogInCase.py : WARNING  
+2018-02-07 11:12:33,709  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:12:33,709  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:12:33,709  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:12:33,709  - LogInCase.py : INFO  Begin time : 2018-02-07  11:12:33  Wednesday
+2018-02-07 11:12:33,720  - LogInCase.py : WARNING  
+2018-02-07 11:12:33,720  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:12:33,720  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:12:33,720  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:12:33,720  - LogInCase.py : INFO  Begin time : 2018-02-07  11:12:33  Wednesday
+2018-02-07 11:12:33,742  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:12:33,742  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:12:33,742  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:12:33,742  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:12:33,742  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:12:33  Wednesday
+2018-02-07 11:12:33,897  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:12:33,897  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:12:33,897  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:12:33,897  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:12:33,898  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:12:33  Wednesday
+2018-02-07 11:12:33,898  - Mgr_LogInCase.py : INFO  case:<class 'Mgr_LogInCase.MallLogInTestCase'>
+2018-02-07 11:12:57,825  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:12:57,825  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:12:57,825  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:12:57,825  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:12:57,881  - LogInCase.py : WARNING  
+2018-02-07 11:12:57,881  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:12:57,881  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:12:57,881  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:12:57,881  - LogInCase.py : INFO  Begin time : 2018-02-07  11:12:57  Wednesday
+2018-02-07 11:12:57,888  - LogInCase.py : WARNING  
+2018-02-07 11:12:57,888  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:12:57,888  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:12:57,888  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:12:57,888  - LogInCase.py : INFO  Begin time : 2018-02-07  11:12:57  Wednesday
+2018-02-07 11:12:57,907  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:12:57,907  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:12:57,907  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:12:57,908  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:12:57,908  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:12:57  Wednesday
+2018-02-07 11:12:58,049  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:12:58,049  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:12:58,049  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:12:58,049  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:12:58,049  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:12:58  Wednesday
+2018-02-07 11:12:58,049  - Mgr_LogInCase.py : INFO  case:MallLogInTestCase
+2018-02-07 11:13:33,269  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:13:33,269  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:13:33,269  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:13:33,269  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:13:33,322  - LogInCase.py : WARNING  
+2018-02-07 11:13:33,322  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:13:33,322  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:13:33,322  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:13:33,322  - LogInCase.py : INFO  Begin time : 2018-02-07  11:13:33  Wednesday
+2018-02-07 11:13:33,332  - LogInCase.py : WARNING  
+2018-02-07 11:13:33,332  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:13:33,332  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:13:33,332  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:13:33,332  - LogInCase.py : INFO  Begin time : 2018-02-07  11:13:33  Wednesday
+2018-02-07 11:13:33,351  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:13:33,351  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:13:33,351  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:13:33,351  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:13:33,351  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:13:33  Wednesday
+2018-02-07 11:13:33,496  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:13:33,496  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:13:33,496  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:13:33,497  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:13:33,497  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:13:33  Wednesday
+2018-02-07 11:13:33,497  - Mgr_LogInCase.py : INFO  case:(<class 'Mgr_LogInCase.MallLogInTestCase'>, <class 'unittest.case.TestCase'>, <type 'object'>)
+2018-02-07 11:14:00,380  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:14:00,380  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:14:00,380  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:14:00,380  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:14:00,454  - LogInCase.py : WARNING  
+2018-02-07 11:14:00,456  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:14:00,456  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:14:00,456  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:14:00,456  - LogInCase.py : INFO  Begin time : 2018-02-07  11:14:00  Wednesday
+2018-02-07 11:14:00,467  - LogInCase.py : WARNING  
+2018-02-07 11:14:00,467  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:14:00,467  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:14:00,467  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:14:00,467  - LogInCase.py : INFO  Begin time : 2018-02-07  11:14:00  Wednesday
+2018-02-07 11:14:00,487  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:14:00,487  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:14:00,489  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:14:00,489  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:14:00,489  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:14:00  Wednesday
+2018-02-07 11:14:00,632  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:14:00,632  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:14:00,632  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:14:00,632  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:14:00,632  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:14:00  Wednesday
+2018-02-07 11:14:32,709  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:14:32,709  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:14:32,709  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:14:32,710  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:14:32,767  - LogInCase.py : WARNING  
+2018-02-07 11:14:32,767  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:14:32,767  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:14:32,767  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:14:32,767  - LogInCase.py : INFO  Begin time : 2018-02-07  11:14:32  Wednesday
+2018-02-07 11:14:32,776  - LogInCase.py : WARNING  
+2018-02-07 11:14:32,776  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:14:32,776  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:14:32,776  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:14:32,776  - LogInCase.py : INFO  Begin time : 2018-02-07  11:14:32  Wednesday
+2018-02-07 11:14:32,796  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:14:32,796  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:14:32,796  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:14:32,796  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:14:32,796  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:14:32  Wednesday
+2018-02-07 11:14:32,938  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:14:32,938  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:14:32,938  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:14:32,938  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:14:32,938  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:14:32  Wednesday
+2018-02-07 11:14:32,938  - Mgr_LogInCase.py : INFO  case:str(object='') -> string
+
+Return a nice string representation of the object.
+If the argument is a string, the return value is the same object.
+2018-02-07 11:14:48,237  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:14:48,237  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:14:48,237  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:14:48,237  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:14:48,298  - LogInCase.py : WARNING  
+2018-02-07 11:14:48,298  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:14:48,298  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:14:48,298  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:14:48,298  - LogInCase.py : INFO  Begin time : 2018-02-07  11:14:48  Wednesday
+2018-02-07 11:14:48,309  - LogInCase.py : WARNING  
+2018-02-07 11:14:48,309  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:14:48,309  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:14:48,309  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:14:48,309  - LogInCase.py : INFO  Begin time : 2018-02-07  11:14:48  Wednesday
+2018-02-07 11:14:48,316  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:14:48,316  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:14:48,318  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:14:48,318  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:14:48,318  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:14:48  Wednesday
+2018-02-07 11:14:48,464  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:14:48,464  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:14:48,464  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:14:48,464  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:14:48,466  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:14:48  Wednesday
+2018-02-07 11:16:39,369  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 11:16:39,369  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 11:16:39,369  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 11:16:39,369  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 11:16:39,424  - LogInCase.py : WARNING  
+2018-02-07 11:16:39,424  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:16:39,424  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:16:39,424  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:16:39,424  - LogInCase.py : INFO  Begin time : 2018-02-07  11:16:39  Wednesday
+2018-02-07 11:16:39,433  - LogInCase.py : WARNING  
+2018-02-07 11:16:39,433  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 11:16:39,433  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 11:16:39,433  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 11:16:39,434  - LogInCase.py : INFO  Begin time : 2018-02-07  11:16:39  Wednesday
+2018-02-07 11:16:39,454  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:16:39,454  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:16:39,456  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:16:39,456  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:16:39,456  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:16:39  Wednesday
+2018-02-07 11:16:39,605  - Mgr_LogInCase.py : WARNING  
+2018-02-07 11:16:39,605  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 11:16:39,605  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 11:16:39,605  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 11:16:39,605  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  11:16:39  Wednesday
+2018-02-07 11:16:39,605  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:19:50,391  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:19:50,398  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:19:50,398  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:19:50,398  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:19:50,694  - LogInCase.py : WARNING  
+2018-02-07 14:19:50,694  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:19:50,694  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:19:50,694  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:19:50,694  - LogInCase.py : INFO  Begin time : 2018-02-07  14:19:50  Wednesday
+2018-02-07 14:19:50,703  - LogInCase.py : WARNING  
+2018-02-07 14:19:50,703  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:19:50,703  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:19:50,703  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:19:50,703  - LogInCase.py : INFO  Begin time : 2018-02-07  14:19:50  Wednesday
+2018-02-07 14:19:50,723  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:19:50,743  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:19:50,744  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:19:50,744  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:19:50,744  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:19:50  Wednesday
+2018-02-07 14:19:50,757  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:19:50,913  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:19:50,914  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:19:50,914  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:19:50,914  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:19:50,914  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:19:50  Wednesday
+2018-02-07 14:21:02,529  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:21:02,529  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:21:02,529  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:21:02,529  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:21:02,671  - LogInCase.py : WARNING  
+2018-02-07 14:21:02,671  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:21:02,671  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:21:02,671  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:21:02,671  - LogInCase.py : INFO  Begin time : 2018-02-07  14:21:02  Wednesday
+2018-02-07 14:21:02,680  - LogInCase.py : WARNING  
+2018-02-07 14:21:02,680  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:21:02,680  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:21:02,680  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:21:02,680  - LogInCase.py : INFO  Begin time : 2018-02-07  14:21:02  Wednesday
+2018-02-07 14:21:02,700  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:21:02,701  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:21:02,701  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:21:02,701  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:21:02,701  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:21:02  Wednesday
+2018-02-07 14:21:02,706  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:21:02,848  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:21:02,848  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:21:02,848  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:21:02,848  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:21:02,848  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:21:02  Wednesday
+2018-02-07 14:24:21,164  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:24:21,164  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:24:21,164  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:24:21,164  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:24:21,303  - LogInCase.py : WARNING  
+2018-02-07 14:24:21,303  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:24:21,303  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:24:21,303  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:24:21,303  - LogInCase.py : INFO  Begin time : 2018-02-07  14:24:21  Wednesday
+2018-02-07 14:24:21,312  - LogInCase.py : WARNING  
+2018-02-07 14:24:21,312  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:24:21,313  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:24:21,313  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:24:21,313  - LogInCase.py : INFO  Begin time : 2018-02-07  14:24:21  Wednesday
+2018-02-07 14:24:21,332  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:24:21,332  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:24:21,332  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:24:21,332  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:24:21,332  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:24:21  Wednesday
+2018-02-07 14:24:21,338  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:24:21,480  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:24:21,480  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:24:21,480  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:24:21,480  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:24:21,480  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:24:21  Wednesday
+2018-02-07 14:25:06,726  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:25:06,726  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:25:06,726  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:25:06,726  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:25:06,887  - LogInCase.py : WARNING  
+2018-02-07 14:25:06,887  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:25:06,887  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:25:06,887  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:25:06,887  - LogInCase.py : INFO  Begin time : 2018-02-07  14:25:06  Wednesday
+2018-02-07 14:25:06,894  - LogInCase.py : WARNING  
+2018-02-07 14:25:06,895  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:25:06,895  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:25:06,895  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:25:06,895  - LogInCase.py : INFO  Begin time : 2018-02-07  14:25:06  Wednesday
+2018-02-07 14:25:06,914  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:25:06,914  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:25:06,914  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:25:06,914  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:25:06,914  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:25:06  Wednesday
+2018-02-07 14:25:06,918  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:25:07,063  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:25:07,063  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:25:07,063  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:25:07,063  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:25:07,063  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:25:07  Wednesday
+2018-02-07 14:27:17,101  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:27:17,101  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:27:17,101  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:27:17,101  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:27:17,259  - LogInCase.py : WARNING  
+2018-02-07 14:27:17,259  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:27:17,259  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:27:17,259  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:27:17,259  - LogInCase.py : INFO  Begin time : 2018-02-07  14:27:17  Wednesday
+2018-02-07 14:27:17,269  - LogInCase.py : WARNING  
+2018-02-07 14:27:17,269  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:27:17,269  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:27:17,269  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:27:17,269  - LogInCase.py : INFO  Begin time : 2018-02-07  14:27:17  Wednesday
+2018-02-07 14:27:17,289  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:27:17,289  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:27:17,289  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:27:17,289  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:27:17,289  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:27:17  Wednesday
+2018-02-07 14:27:17,295  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:27:17,440  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:27:17,440  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:27:17,440  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:27:17,440  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:27:17,440  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:27:17  Wednesday
+2018-02-07 14:30:54,237  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:30:54,237  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:30:54,237  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:30:54,237  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:30:54,398  - LogInCase.py : WARNING  
+2018-02-07 14:30:54,398  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:30:54,400  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:30:54,400  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:30:54,400  - LogInCase.py : INFO  Begin time : 2018-02-07  14:30:54  Wednesday
+2018-02-07 14:30:54,408  - LogInCase.py : WARNING  
+2018-02-07 14:30:54,408  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:30:54,408  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:30:54,408  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:30:54,408  - LogInCase.py : INFO  Begin time : 2018-02-07  14:30:54  Wednesday
+2018-02-07 14:30:54,428  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:30:54,428  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:30:54,428  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:30:54,428  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:30:54,428  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:30:54  Wednesday
+2018-02-07 14:30:54,434  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:30:54,575  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:30:54,575  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:30:54,575  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:30:54,575  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:30:54,575  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:30:54  Wednesday
+2018-02-07 14:31:43,279  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:31:43,279  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:31:43,279  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:31:43,279  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:31:43,423  - LogInCase.py : WARNING  
+2018-02-07 14:31:43,423  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:31:43,423  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:31:43,423  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:31:43,423  - LogInCase.py : INFO  Begin time : 2018-02-07  14:31:43  Wednesday
+2018-02-07 14:31:43,431  - LogInCase.py : WARNING  
+2018-02-07 14:31:43,433  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:31:43,433  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:31:43,433  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:31:43,433  - LogInCase.py : INFO  Begin time : 2018-02-07  14:31:43  Wednesday
+2018-02-07 14:31:43,451  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:31:43,451  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:31:43,451  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:31:43,451  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:31:43,451  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:31:43  Wednesday
+2018-02-07 14:31:43,457  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:31:43,604  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:31:43,604  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:31:43,604  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:31:43,604  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:31:43,604  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:31:43  Wednesday
+2018-02-07 14:32:40,974  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:32:40,976  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:32:40,976  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:32:40,976  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:32:41,140  - LogInCase.py : WARNING  
+2018-02-07 14:32:41,140  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:32:41,140  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:32:41,140  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:32:41,140  - LogInCase.py : INFO  Begin time : 2018-02-07  14:32:41  Wednesday
+2018-02-07 14:32:41,148  - LogInCase.py : WARNING  
+2018-02-07 14:32:41,148  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:32:41,150  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:32:41,150  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:32:41,150  - LogInCase.py : INFO  Begin time : 2018-02-07  14:32:41  Wednesday
+2018-02-07 14:32:41,168  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:32:41,168  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:32:41,168  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:32:41,168  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:32:41,168  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:32:41  Wednesday
+2018-02-07 14:32:41,174  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:32:41,315  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:32:41,316  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:32:41,316  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:32:41,316  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:32:41,316  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:32:41  Wednesday
+2018-02-07 14:33:25,444  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:33:25,444  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:33:25,444  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:33:25,444  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:33:25,595  - LogInCase.py : WARNING  
+2018-02-07 14:33:25,596  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:33:25,596  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:33:25,596  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:33:25,596  - LogInCase.py : INFO  Begin time : 2018-02-07  14:33:25  Wednesday
+2018-02-07 14:33:25,605  - LogInCase.py : WARNING  
+2018-02-07 14:33:25,605  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:33:25,605  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:33:25,605  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:33:25,605  - LogInCase.py : INFO  Begin time : 2018-02-07  14:33:25  Wednesday
+2018-02-07 14:33:25,625  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:33:25,625  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:33:25,625  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:33:25,625  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:33:25,625  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:33:25  Wednesday
+2018-02-07 14:33:25,631  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:33:25,812  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:33:25,812  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:33:25,813  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:33:25,813  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:33:25,813  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:33:25  Wednesday
+2018-02-07 14:37:05,073  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:37:05,073  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:37:05,073  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:37:05,073  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:37:05,229  - LogInCase.py : WARNING  
+2018-02-07 14:37:05,230  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:37:05,230  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:37:05,230  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:37:05,230  - LogInCase.py : INFO  Begin time : 2018-02-07  14:37:05  Wednesday
+2018-02-07 14:37:05,237  - LogInCase.py : WARNING  
+2018-02-07 14:37:05,237  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:37:05,237  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:37:05,237  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:37:05,237  - LogInCase.py : INFO  Begin time : 2018-02-07  14:37:05  Wednesday
+2018-02-07 14:37:05,257  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:37:05,257  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:37:05,257  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:37:05,257  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:37:05,257  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:37:05  Wednesday
+2018-02-07 14:37:05,263  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:37:05,413  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:37:05,414  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:37:05,414  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:37:05,414  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:37:05,414  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:37:05  Wednesday
+2018-02-07 14:37:38,619  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:37:38,619  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:37:38,619  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:37:38,619  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:37:38,765  - LogInCase.py : WARNING  
+2018-02-07 14:37:38,766  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:37:38,766  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:37:38,766  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:37:38,766  - LogInCase.py : INFO  Begin time : 2018-02-07  14:37:38  Wednesday
+2018-02-07 14:37:38,775  - LogInCase.py : WARNING  
+2018-02-07 14:37:38,775  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:37:38,775  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:37:38,775  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:37:38,775  - LogInCase.py : INFO  Begin time : 2018-02-07  14:37:38  Wednesday
+2018-02-07 14:37:38,793  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:37:38,795  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:37:38,795  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:37:38,795  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:37:38,795  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:37:38  Wednesday
+2018-02-07 14:37:38,799  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:37:38,938  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:37:38,938  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:37:38,938  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:37:38,938  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:37:38,938  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:37:38  Wednesday
+2018-02-07 14:41:19,019  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:41:19,019  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:41:19,019  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:41:19,019  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:41:19,167  - LogInCase.py : WARNING  
+2018-02-07 14:41:19,167  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:41:19,167  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:41:19,167  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:41:19,167  - LogInCase.py : INFO  Begin time : 2018-02-07  14:41:19  Wednesday
+2018-02-07 14:41:19,177  - LogInCase.py : WARNING  
+2018-02-07 14:41:19,177  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:41:19,177  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:41:19,177  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:41:19,177  - LogInCase.py : INFO  Begin time : 2018-02-07  14:41:19  Wednesday
+2018-02-07 14:41:19,197  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:41:19,197  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:41:19,197  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:41:19,197  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:41:19,198  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:41:19  Wednesday
+2018-02-07 14:41:19,203  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:41:19,342  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:41:19,342  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:41:19,342  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:41:19,344  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:41:19,344  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:41:19  Wednesday
+2018-02-07 14:43:56,680  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:43:56,680  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:43:56,680  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:43:56,681  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:43:56,832  - LogInCase.py : WARNING  
+2018-02-07 14:43:56,832  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:43:56,832  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:43:56,832  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:43:56,832  - LogInCase.py : INFO  Begin time : 2018-02-07  14:43:56  Wednesday
+2018-02-07 14:43:56,839  - LogInCase.py : WARNING  
+2018-02-07 14:43:56,839  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:43:56,841  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:43:56,841  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:43:56,841  - LogInCase.py : INFO  Begin time : 2018-02-07  14:43:56  Wednesday
+2018-02-07 14:43:56,859  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:43:56,859  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:43:56,859  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:43:56,859  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:43:56,859  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:43:56  Wednesday
+2018-02-07 14:43:56,865  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:43:57,003  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:43:57,003  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:43:57,003  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:43:57,003  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:43:57,003  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:43:57  Wednesday
+2018-02-07 14:49:35,236  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:49:35,236  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:49:35,236  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:49:35,236  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:49:35,401  - LogInCase.py : WARNING  
+2018-02-07 14:49:35,401  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:49:35,401  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:49:35,401  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:49:35,401  - LogInCase.py : INFO  Begin time : 2018-02-07  14:49:35  Wednesday
+2018-02-07 14:49:35,411  - LogInCase.py : WARNING  
+2018-02-07 14:49:35,411  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:49:35,411  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:49:35,411  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:49:35,411  - LogInCase.py : INFO  Begin time : 2018-02-07  14:49:35  Wednesday
+2018-02-07 14:49:35,431  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:49:35,431  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:49:35,431  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:49:35,431  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:49:35,431  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:49:35  Wednesday
+2018-02-07 14:49:35,437  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:49:35,573  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:49:35,573  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:49:35,573  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:49:35,573  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:49:35,573  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:49:35  Wednesday
+2018-02-07 14:57:04,776  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 14:57:04,776  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 14:57:04,776  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 14:57:04,776  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 14:57:04,921  - LogInCase.py : WARNING  
+2018-02-07 14:57:04,921  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:57:04,921  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:57:04,921  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:57:04,921  - LogInCase.py : INFO  Begin time : 2018-02-07  14:57:04  Wednesday
+2018-02-07 14:57:04,933  - LogInCase.py : WARNING  
+2018-02-07 14:57:04,933  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 14:57:04,933  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 14:57:04,933  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 14:57:04,933  - LogInCase.py : INFO  Begin time : 2018-02-07  14:57:04  Wednesday
+2018-02-07 14:57:04,951  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:57:04,953  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:57:04,953  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:57:04,953  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:57:04,953  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:57:04  Wednesday
+2018-02-07 14:57:04,960  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 14:57:05,094  - Mgr_LogInCase.py : WARNING  
+2018-02-07 14:57:05,094  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 14:57:05,095  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 14:57:05,095  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 14:57:05,095  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  14:57:05  Wednesday
+2018-02-07 15:11:49,789  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 15:11:49,789  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 15:11:49,789  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 15:11:49,789  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 15:12:10,418  - HbTestRunner.py : INFO  The testcase number is : 5
+2018-02-07 15:12:10,418  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 15:12:10,418  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 15:12:10,420  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 15:12:10,572  - LogInCase.py : WARNING  
+2018-02-07 15:12:10,572  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 15:12:10,572  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 15:12:10,572  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 15:12:10,572  - LogInCase.py : INFO  Begin time : 2018-02-07  15:12:10  Wednesday
+2018-02-07 15:12:10,584  - LogInCase.py : WARNING  
+2018-02-07 15:12:10,584  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 15:12:10,585  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 15:12:10,585  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 15:12:10,585  - LogInCase.py : INFO  Begin time : 2018-02-07  15:12:10  Wednesday
+2018-02-07 15:12:10,605  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:12:10,605  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:12:10,605  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:12:10,605  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:12:10,605  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:12:10  Wednesday
+2018-02-07 15:12:10,611  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:12:10,752  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:12:10,752  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:12:10,752  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:12:10,753  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:12:10,753  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:12:10  Wednesday
+2018-02-07 15:13:58,535  - HbTestRunner.py : INFO  The testcase number is : 3
+2018-02-07 15:13:58,535  - HbTestRunner.py : INFO  The testcase name is : LogInCase.py
+2018-02-07 15:13:58,535  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 15:13:58,535  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 15:13:58,680  - LogInCase.py : WARNING  
+2018-02-07 15:13:58,680  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 15:13:58,680  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 15:13:58,680  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 15:13:58,680  - LogInCase.py : INFO  Begin time : 2018-02-07  15:13:58  Wednesday
+2018-02-07 15:14:19,696  - LogInCase.py : WARNING  
+2018-02-07 15:14:19,697  - LogInCase.py : INFO  执行用例归属于>>:业务-登录及注销
+2018-02-07 15:14:19,697  - LogInCase.py : INFO  Username:13538189575
+2018-02-07 15:14:19,697  - LogInCase.py : INFO  Password:liu123456
+2018-02-07 15:14:19,697  - LogInCase.py : INFO  Begin time : 2018-02-07  15:14:19  Wednesday
+2018-02-07 15:14:28,733  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:14:28,733  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:14:28,734  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:14:28,734  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:14:28,734  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:14:28  Wednesday
+2018-02-07 15:14:28,750  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:14:28,892  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:14:29,091  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:14:29,361  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:14:29,361  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:14:29,362  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:14:29,362  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:14:29,362  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:14:29  Wednesday
+2018-02-07 15:14:29,364  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:14:29,484  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:14:29,486  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:14:29,486  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:14:29,486  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:14:29,486  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:14:29  Wednesday
+2018-02-07 15:23:56,706  - HbTestRunner.py : INFO  The testcase number is : 2
+2018-02-07 15:23:56,706  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 15:23:56,706  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 15:23:56,841  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:23:56,841  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:23:56,841  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:23:56,842  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:23:56,842  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:23:56  Wednesday
+2018-02-07 15:23:56,846  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:23:56,996  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:23:57,010  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:23:57,017  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:23:57,019  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:23:57,019  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:23:57,019  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:23:57,019  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:23:57  Wednesday
+2018-02-07 15:23:57,022  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:23:57,144  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:23:57,144  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:23:57,144  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:23:57,144  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:23:57,145  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:23:57  Wednesday
+2018-02-07 15:24:03,894  - HbTestRunner.py : INFO  The testcase number is : 2
+2018-02-07 15:24:03,894  - HbTestRunner.py : INFO  The testcase name is : Mgr_LogInCase.py
+2018-02-07 15:24:03,894  - HbTestRunner.py : INFO  The testcase name is : __init__.py
+2018-02-07 15:24:04,032  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:24:04,032  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:24:04,032  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:24:04,032  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:24:04,032  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:24:04  Wednesday
+2018-02-07 15:24:04,038  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:24:04,164  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:24:04,177  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:24:04,181  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:24:04,183  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:24:04,183  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:24:04,183  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:24:04,183  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:24:04  Wednesday
+2018-02-07 15:24:04,184  - connectionpool.py : INFO  Starting new HTTP connection (1): sit.mall-mgr-sn.1332255.com
+2018-02-07 15:24:04,306  - Mgr_LogInCase.py : WARNING  
+2018-02-07 15:24:04,308  - Mgr_LogInCase.py : INFO  执行用例归属于>>:管理后台-登录及注销
+2018-02-07 15:24:04,308  - Mgr_LogInCase.py : INFO  Username:admin
+2018-02-07 15:24:04,308  - Mgr_LogInCase.py : INFO  Password:96e79218965eb72c92a549dd5a330112
+2018-02-07 15:24:04,308  - Mgr_LogInCase.py : INFO  Begin time : 2018-02-07  15:24:04  Wednesday
