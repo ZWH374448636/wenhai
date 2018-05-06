@@ -1,0 +1,493 @@
+1.变量名只能是字母/数字或下划线的任意组合,第一个字符不能是数字
+2.数据类型:整数/字符串/列表/元组/字典/集合
+	--1.列表:通过[]创建列表,列表查找:索引,列表[2],表示在列表中查找第三个数值
+		切片不包括后面那个索引值,a[1:-1]取出列表中一到最后倒数第二个元素,不包括最后那个元素
+		a[1:]取出列表中一到到最后一个元素
+		a[0:3]取出0到2索引的三个元素,不包括后面一个,顾头不顾尾
+		a[-5:-1]取出列表后面的四位,但不包括后一位,要包括后一位的话这样写a[-5:]
+		a[1:5:2]隔2个元素取,根据步长
+		append():添加元素,默认添加到最后位置,a.append(元素)
+		extend():添加元素,一次添加多个元素,可以添加一个列表
+		insert(索引值,元素):插入元素,可以根据索引位置插入元素,a.insert(2,元素)
+		remove(param):删除元素,a.move(元素)
+		pop():删除元素并返回删除的值,a.pop(index),
+		del:删除元素,del a[0],删除a列表中的第一个元素
+		index(元素):查找元素的索引,查找的是第一个元素的索引,a.index(元素)
+		reverse():反转列表顺序,a.reverse()
+		sort():列表排序,列表值从小到大排序
+		count(value):统计元素的个数
+		深浅拷贝:
+			1.li.copy():浅拷贝,修改拷贝后列表中的不可变数据(str),原列表的数据不变化,如果修改的是拷贝后列表中的可变数据(list),原列表中的数据也会变化,浅拷贝只拷贝一层,import copy copy.copy()浅拷贝;copy.deepcopy()深拷贝
+
+	--2.元祖:通过()小括号创建元祖,元祖之间用逗号隔开,元祖不可修改,切片同样适用于元祖,创建只有一个数字的元祖,尽量加一个逗号(1,)
+
+	--3.字典:通过dict = {"name":"value"}或dict = dict((("name","valu)e",)),键不能为可变对象,唯一,无序
+		增:dict["key"] = value或dict.setdefaule("key",value),此方法返回添加的值
+		改:dict.update(dict1)添加字典dict1到dict
+		删:del del dict["key"]删除整个字典;dict.poptime()随机删除字典值
+		其它方法:dict.fromkeys(["key1","key2"],value)前面的作为键,后面的作为值
+		排序:sorted(dict)根据键来排序ASCII码
+		字典遍历:
+		for i in dict ot dict.values():
+			print(i) -->默认打印键 or 打印值
+			print(i,dict[i])推荐使用这种方式,效率高
+
+
+	--4.集合:通过set()创建集合,集合是无序且不重合
+		1.集合方法:
+			1.difference()：差集，比较两个集合的不同点，例如s1.difference(s2),集合s1中存在，集合s2中不存在
+			2.difference_update():比较两个集合的不同点，例如s1.difference(s2),集合s1中存在，集合s2中不存在,不产生新的集合，更新集合s1
+			3.symmetric_difference():对称差集，比较两个集合中的不同点，再取出来，例如s1.difference(s2),集合s1中存在，集合s2中不存在；集合s2中存在，集合s1中不存在；
+			4.symmetric_difference_update():比较两个集合中的不同点，再取出来，对称差集，例如s1.difference(s2),集合s1中存在，集合s2中不存在；集合s2中存在，集合s1中不存在；
+			5.add()：往集合中添加元素，例如s1.add(1)，添加的算一个
+			6.update():往集合中批量添加元素，接收可迭代的对象，列表、字符串，例如s1.update（s2），s2可为列表、字符串和元祖，添加的字符串就会拆开
+			7.discard():移除指定元素，不存在也不报错，例如s1.discard（1）
+			8.remove():移除指定元素，不存在则报错，例如s1.remove(1)
+			9.pop():随机移除某个元素,例如s1.pop（）
+			10.intersection(),取两个集合的交集，s1.intersection（s2）
+			11.intersection_update():取两个集合的交集，并更新前面的集合，例如s1.intersection_update（s2）
+			12.isdisjoint():判断两个集合是否有交集，例如s1.isdisjoint（s2）
+			13.issubset():判断某个集合是否是另外一个集合的子序列，例如s1.issubset（s2）
+			14.issuperset():判断某个集合是否是另外一个集合的父序列
+			15.union():两个集合的并集，例如s1.union（s2）
+			16.del s:删除集合
+
+	--5.不可变类型:整型/字符串和元祖,可变类型:列表和字典
+
+	--6.字符串方法:
+		1.encode(),编码转换
+		2.endswith(),以什么字符结尾,返回True或False
+		3.startswith(),以什么字符开始
+		4.find(),str.find('xx')在字符串str中查找第一个xx字符并返回索引
+		5.format().str.format()格式化输出,
+			st = "hello {name}"
+			print(st.format(name = "zengwenhai"))
+		6.index(),在字符串str中查找字符,如果有就返回索引,没有就报错
+		7.strip(),去掉字符串左右的空格和换行符
+		8.replace(),替换字符串中的内容,str.replace('old','new')
+		9.split(),对字符串切分,str.split(' ')根据字符来切分字符串
+		10.join(),将字符通过格式来组合,a= '123',b='234'--->' '.join([a,b])
+
+	--7.编码解码:
+		1.python3默认是unicode编码格式
+			1.encode在编码的同时,会把数据转换成bytes类型
+			2.decode在解码的同时,会把bytes类型转换成字符串
+		2.unicode用2-4个字节表示一个字符,解决了字符和二进制的对应关系
+			1.unicode的作用:
+				1.直接支持全球所有语言,每个国家都可以不再使用自己之前的旧编码了,用unicode就可以了
+				2.unicode包含了跟全球所有国家编码的映射关系
+			2.unicode的局限性:
+				1.使用unicode表示一个字符,太浪费空间,例如:利用unicode表示"python"需要12个字节才能表示,比原来ASCII表示增加了一倍,由于计算机的内存比较大,并且字符串在内容中表示时也不会特别大,所以内容可以使用unicode来处理,但是存储和网络传输时一般数据都会非常多,那么增加1倍将是无法容忍的
+			3.解决方法:
+				1.为了解决存储和网络传输的问题,出现了Unicode Transformation Format,学术名UTF,即对unicode中的部分编码进行转换,以便于在存储和网络传输时可以节省空间
+
+			4.utf编码种类:
+				1.UTF-8:使用1/2/3/4个字节表示所有字符;优先使用一个1字节,无法满足则增加一个字节,最多4个字节,英文占1个字节,欧洲语系占2个,东亚占3个,其它及特殊语系占4个
+				2.UTF-16:使用2/4个字节表示所有字符;优先使用2个字节,否则使用4个字节表示
+
+			5.python3和python2中编码区分:
+				1.python3中文件编码是utf-8,字符串编码是unicode,代码加载到内存会被转换为unicode
+				2.python2中文件编码默认是ascii,字符串编码是ascii,如果文件头声明了gbk,那字符串的编码就是gbk
+
+			6.bytes类型:一个字节是8位,要表示图片/视频等二进制格式的数据
+				1.在python2中str等于bytes
+
+			7.常见编码错误的原因:
+				1.ython解释器的默认编码
+				2.代码源文件头编码声明和代码内容的编码
+				3.Terminal终端使用的编码
+				4.操作系统的语言编码
+
+	--8.进制转换:
+		1.oct():十进制转换为8进制,8进制是0-8,遇8进一位(用的少)
+		2.hex():十进制转换为16进制,16进制是0-15abcdef
+		3.bin():十进制转换为2进制
+		4.chr():十进制数字转换为ascii码字符
+
+
+3.文件:
+	1.能调用方法的一定是对象
+	2.read(2)汉字也表示一个字符,表示读取两个汉字
+		f = open("小重山",'r',encoding='utf8')
+			for i in f:  #f是文件对象,for循环将它做成一个迭代器,用一行取一行
+	 			print(i.strip())
+	3.readline(),每次取出一行内容
+	4.readlines()分行取出,取出内容放在一个列表里
+	5.tell()指示光标位置,按字节来读取
+	6.seek()调整光标位置,按字节来找的
+		1.例如"路飞学城"用gbk存是2个字节一个字,用utf-8是3个字节一个字,因此gbk打开时,seek(4)就把光标切换到飞字中间,如果用utf-8,seek(4)就会导致拿到了飞这个字的一部分,打开就会报错
+	7.truncate()截断,里面可以加位置参数,不加参数时,就从当前位置到文件尾部的内容全部去掉;加上长度的话就从文件开头截断指定长度
+	8.r+:往文件后面写内容,从文件前面读取,先读后写,追加模式
+	9.w+:会清空文件内容再继续写,但是光标会移动到写的内容后面,如果需要读取,要用seek方法移动光标到前面
+	10.a+:光标在文件内容最后
+
+
+4.函数:
+	1.作用:
+		1.减少重复代码
+		2.方便修改代码,更易扩展
+		3.保持代码的一致性
+
+	2.函数的参数:
+		1.g关键字参数:严格按照顺序，将实际参数赋值给形式参数
+		2.默认参数:必须放置在参数列表的最后
+		3.指定参数:将实际参数赋值给指定的形式参数
+		4.*args:可以一次性传入多个参数，默认将传入的参数全部放置在元祖中
+		5.**kwargs:传入参数要是字典,默认将传入的参数全部放置在字典中
+
+	3.函数return作用和注意点:
+		1.结束函数
+		2.返回某个对象
+		3.如果return多个对象,python会自动把多个对象封装成一个元祖
+		4.函数里如果没有return,会默认返回一个None
+
+	4.函数作用域和变量的修改:
+		1.L:Local,局部作用域,即函数中定义的变量,包括局部变量和形参,临时存活,局部有效
+		2.E:enclosing,嵌套的父级函数的局部作用域,即包含此函数的上级函数的局部作用域,但不是全局的
+		3.G:globa,全局变量,就是模块级别定义的变量,全局存活,全局有效
+		4.B:built-in,系统固定模块里的变量,比如int/bytearray等
+		5.搜索变量的优先顺序依次是:局部作用域>外层作用域>当前模块中的全局>python内置作用域,也就是LEGB
+		6.如果要在函数内部修改全局变量,需要在函数内修改的全局变量前加上global关键字声明
+		7.如果要在函数内部修改嵌套父级函数的变量,需要在函数内修改的父级函数的变量前加上nonlocal关键字声明
+
+	5.高阶函数满足条件:
+		1.函数名可以进行赋值
+		2.函数名可以作为函数参数,还可以作为函数返回值
+
+		3.高阶函数:
+			1.filter(func,sequence):用来过滤数据
+			2.map(func,sequence):将序列中值分别传入函数中处理
+			3.reduce(func,sequence):将序列中值分别传入函数中处理
+				1.在python中可以直接调用,在python3中需要导入:from functools import reduce
+
+	6.递归函数:在函数里调用函数本身,递归需要有退出条件,但凡是递归可以做的循环也可以解决,递归函数的效率在很多时候会很低
+
+
+	7.装饰器功能
+		1.@+函数名功能:
+			1.自动执行outer函数并且将其下面的函数名f1当做参数传递
+			2.将outer函数的返回值,重新赋值给f1
+			def outer(func):
+				print("111")
+
+			@outer
+			def f1():
+				print("F1")
+
+		2.闭包:如果在一个内部函数里,对在外部作用域(但不是全局作用域)的变量进行引用,并且返回内部函数名,那么这个现象就被认为是闭包
+
+
+5.列表生成式:[i + i for i in range(10)]
+
+
+6.生成器:列表元素按照某种算法推算出来,在循环的过程中不断推算出后续的元素,不必创建完整的列表(list),从而节省大量空间,在python中,这种一边循环一边计算的机制,称为生成器:generator
+	1.创建生成器,有几种方法:
+		1.第一种方法很简单:把列表生成式的[]改为(),就创建了一个生成器
+			1.L = (x * x for x in range(10))
+			  通过next(L)方法生成序列值
+			  
+		2.第二种方法:函数生成器,函数里添加yield,函数名加()就变成了生成器,可以用next()函数不断调用并返回下一个值,直到最后抛出StopIteration错误无法继续调用了
+			1.return语句在生成器里代表生成器的终止,直接报错
+			2.return和yield的区别:
+				1.return:返回函数值并终止程序
+				2.yield:返回函数数据,并冻结当前函数的执行过程
+			3.send()方法唤醒生成器并继续执行;发送一个信息到生成器内部
+
+
+7.迭代器:可以直接用于for循环的对象统称为可迭代对象Iterable
+	1.可以使用isinstance()判断一个对象是否是Iterable
+		1.from collections import Iterable
+				isinstance("list",Iterable)
+	2.可以被next()函数调用并不断返回下一个值的对象称为迭代器
+	3.生成器都是Iterator对象,list/dict/str是Iterable,却不是Iterator
+	4.把lsit/dict/str等Iterable变成Iterator可以使用iter()函数
+
+
+8.模块:在python,一个.py文件就称为一个模块
+	1.使用模块的好处:
+		1.提高了代码的可维护性
+		2.避免函数名和变量名冲突
+	2.模块分为三种:
+		1.内置标准模块
+		2.第三方开源模块,通过pip3 install安装
+		3.自定义模块
+	3.国内下载源:http://pypi.douban.com/simple/  ps:pip3 install - i 下载源 模块 --trusted-host pypi.douban.com
+	4.程序入口文件的路径位置就是python系统查找的当前路径,即入口程序文件所属的路径会加在sys.path中
+
+
+	1.time模块:需要导入time模块
+		1.time.localtime([secs]):将一个时间戳转换为当前时区的struct_time,参数secs参数未提供,则以当前时间为准
+		2.time.gmtime([secs]):和localtime()方法类似,gmtime()方法是将一个时间戳转换为utc时区的struct_time
+		3.time.time():返回当前时间的时间戳
+		4.time.mktime(t):将一个struct_time转换为时间戳
+		5.time.sleep(s):线程推迟指定的时间运行,单位是s
+		6.time.asctime([t]):把一个表示时间的元祖或struct_time表示为这种形式:Sun Oct 1 12:04:38 2017,如果没有参数,将会把time.localtime()作为参数传入
+		7.time.ctime([secs]):把一个时间戳(按秒计算的浮点数)转换为time_asctime()的形式,如果参数未传入或者为None的时候,将会默认time.time()为参数,它的作用相当于time.asctime(time.localtime(secs))
+		8.time.strftime(format[,t]):把一个代表时间的元祖或者struct_time(如time.localtime()和time.gmtime()返回)转换为格式化的时间字符串,如果t未指定,将传入time.localtime()
+		9.time.strptime(string[,format]):把一个格式化的时间字符串转化为struct_time,实际上和strftime是逆操作
+		1.举例:time.strptime('2017-10-3 17:54',"%Y-%m-%d %H:%M"),输出time.struct_time(tm_year=2017, tm_mon=10, tm_mday=3, tm_hour=17, tm_min=54, tm_sec=0, tm_wday=1, tm_yday=276, tm_isdst=-1)
+
+
+	2.datetime模块:相比较time模块,datetime模块的接口更直观,更容易调用
+		1.datetime模块定义了下面几个类:
+			1.datetime.date:表示日期的类,常用的属性有year,month,day
+			2.datetime.time:表示时间的类,常用的属性有hour,minute,secnod,microsecnod
+			3.datetime.datetime:表示日期时间
+			4.datetime.timedelta:表示时间间隔,即两个时间点之间的长度
+			5.datetime.tzinfo:与时区有关的相关信息
+
+		2.常用的方法:
+			1.>>>>d=datetime.datetime.now():返回当前的datetime日期类型
+			  >>>>d.timestamp(),d.today(),d.year(),d.timetuple()等方法可以调用
+			2.datetime.date.fromtimestamp(23333):把一个时间戳转换为datetime日期类型
+
+		3.时间运算:
+			1.datetime.datetime.now()  # 当前时间
+			2.datetime.datetime.now() + datetime.timedelta(4)  # 当前时间 + 4天
+			3.datetime.datetime.now() + datetime.timedelta(hours=4)  # 当前小时 + 4小时
+
+		4.时间替换:
+			1.>>>>d = 3.datetime.datetime.now()  # 当前时间
+		  	>>>>d.replace(year=2017,month=4,day=27)
+		  	>>>> datetime.datetime(2017, 4, 27, 11, 52, 26, 666264)
+
+
+	3.random模块:返回随机数
+		1.random.randomrange(1,10)  #返回1-10之间的一个随机数,不包括10
+		2.random.randomint(1,10)  #返回1-10之间的一个随机数,包括10
+		3.random.randrange(0,100,2)  #返回0-100的随机偶数
+		4.random.random()  #返回一个随机浮点数
+		5.random.sample("zengwenhai",3)  #从多个字符中选取特定数量的字符
+		6.random.choice("zengwenhai")  #返回一个给点数据集合中的随机字符
+		7.random.shuffle(list)  #随机打乱列表中值的顺序
+
+
+	4.sys模块:
+		1.sys.argv  #命令行参数list,第一个元素是程序本身路径
+		2.sys.exit(n)  #退出程序,正常退出时exit(0)
+		3.sys.version  #获取python解释程序的版本信息
+		4.sys.maxsize  #最大的int值
+		5.sys.path  #返回模块的搜索路径,初始化的时候使用pythonpath环境变量的值
+		6.sys.platform  #返回操作系统平台名称
+		7.sys.stdout.write('please')  #标准输出
+		8.sys.stdin.readline()  #标准输入
+		9.sys.getdefauleencoding()  #获取解释器默认编码
+		10.sys.getfilesystemencoding  #获取内存数据存到文件里的默认编码
+
+
+	5.shutil模块:高级的文件/文件夹/压缩包处理模块
+		1.copyfileobj(fsrc,fdst,[,length]):将文件内容拷贝到另一个文件中,可以是部分内容
+		2.copyfile(src,dst):拷贝文件
+		3.coptmode(src,dst):仅拷贝权限,内容和组/用户均不变
+		4.copystat(src,dst):拷贝状态信息,包括权限/字节/修改时间
+		5.copy(src,dst):拷贝文件和权限
+		6.copy2(src,dst):拷贝文件和状态信息
+		7.copytree(src,dst,symlinks=False,ignore=None):递归的拷贝文件
+		8.move(src,dst):递归的移动文件
+		9.make_archive(base_name,format,root_dir..):创建压缩包并返回文件路径,例如zip,tar
+			1.base_name:压缩包的文件名,也可以是压缩包的路径,只是文件名时,保存到当前目录
+			2.format:压缩包种类,zip/tar,gztar等
+			3.root_dir:要压缩的文件夹路径(默认当前路径)
+			4.owner:用户,默认当前用户
+			5.group:组,默认当前组
+			6.logger:用于记录日志,通常是logging.Logger对象
+
+
+	6.json&pickle序列化模块:序列化是指把内存里的数据类型转变成字符串,以使其能存储到硬盘或通过网络传输到远程,因为硬盘或网络传输时只能接受字节bytes
+		1.json模块:用于字符串和python数据类型间进行转换
+			1.dumps(data):将数据转换为只有python语言认识的字符串,即序列化
+			2.dump(fileobj):将数据转换为只有python语言认识的字符串,并写入文件
+			3.loads(data):将经过序列化的数据读取出来,即反序列化
+			4.load(fileobj):将经过序列化的数据从文件中读取出来
+			5.json支持的序列化数据类型包括:str/int/tuple/list/dict
+		2.pickle模块:用于python特有的类型和python数据类型间进行转换
+			1.dumps(data):将数据转换为只有python语言认识的字符串,即序列化
+			2.dump(fileobj):将数据转换为只有python语言认识的字符串,并写入文件
+			3.loads(data):将经过序列化的数据读取出来,即反序列化
+			4.load(fileobj):将经过序列化的数据从文件中读取出来
+			5.pickle支持python里的所有数据类型,但是只能在python里使用,不跨平台
+		
+
+	7.shelve模块:
+
+
+	8.xml模块:xml是实现不同语言或程序之间进行数据交换的协议
+		import xml.etree.ElementTree as ET  #导入xml模块中的相关库并起一个别名
+
+		tree = ET.parse("xml_test")  #读取xml文档
+		root = tree.getroot()  #获取xml文档中的根节点
+		print(root.tag)
+
+		# 遍历xml文档
+		for child in root:  
+    	print("====", child.tag,child.attrib)
+    		for i in child:
+        	print(i.tag,i.text)  #获取子节点标签名和子节点文本值
+
+        # 只遍历year节点,通过iter方法获取子节点
+		for node in root.iter('year'):
+    		print(node.tag,node.text)
+
+    	# 删除node
+		for country in root.findall("country"):
+ 			rank = int(country.find('rank').text)
+    		if rank > 50:
+        		root.remove(country)
+		tree.write("out.xml")
+
+
+	9.configparser模块:
+		1.ini配置文件格式:
+			[DEFAULT]
+			serveraliveinterval = 45
+			compression = yes
+			compressionlevel = 9
+			forwardx11 = yes
+
+			[bitbucket.org]
+			user = hg
+
+			[topsecret.server.com]
+			port = 50022
+			forwardx11 = no
+
+		2.ini配置文件操作:
+			import configparser  # 导入模块,在python3中式configparser,在python2中式Configparser
+			config = configparser.ConfigParser()  # 创建Configparser对象
+			config.read("config.ini")  # 读取ini配置文件
+			r = config.sections()  # 获取节点名
+			print(r)
+			print(config.options("bitbucket.org"))  # 获取节点下的键值
+			print(config["bitbucket.org"]["User"])  # 获取节点下的值,是一个字典形式
+
+			for k,v in config["bitbucket.org"].items(): # 循环获取节点下的字典值
+			    print(k,v)
+
+			#  修改和删除配置文件信息
+			config.add_section("group")  # 添加一个节点
+			config["group"]["name"] = "zengwenhai"  # 节点下添加一个键值对信息
+			config["group"]["age"] = "29"
+			config.write(open("config.ini", 'w'))  # 写入原文件
+
+			config.remove_section("group")  # 删除节点
+			config.write(open("config.ini", 'w'))  # 保存原文件
+
+
+	10.hashlib加密模块:
+		1.加密算法介绍:
+			1.HASH算法:Hash一般翻译做"散列",也有直接音译为"哈希"的,就是把任意长度的输入(又叫做预映射,pre_image),通过散列算法,变换成固定长度的输出,该输出就是散列值,这种转换是一种压缩映射,也就是,散列值的空间通常远小于输入的空间,不同的输入可能是相同的散列输出,而不可能从散列值来唯一确定输入值
+
+
+			2.MD5算法:MD5讯息摘要演算法,一种被广泛使用的密码杂凑函数,可以产生出一个128位的散列值,用于确保信息传输完整一致,MD5的前身有MD2/MD3和MD4
+				1.MD5的功能:输入任意长度的信息,经过处理,输出为128位的信息(数字指纹),不同的输入得到不同的结果,唯一性
+				2.MD5算法的特点:
+					1.压缩性:任意长度的数据,算出的MD5值的长度都是固定的
+					2.容易计算:从原数据计算出MD5值很容易
+					3.抗修改性:对原数据进行任何改动,修改一个字节生成的MD5值区别也会很大
+					4.强抗碰撞:对已知原数据和MD5,想找到一个具有相同MD5值的数据(即伪造数据)是非常困难的
+				3.MD5算法不可逆的原因:MD5是一种散列函数,使用的是hash算法,在计算过程中原文的部分信息是丢失了的
+				4.MD5的用途:
+					1.防止被篡改
+					2.防止直接看到明文
+
+
+	11.subprocess模块:主要用来取代一些旧的模块方法,如os.system/os.spawn*/os.popen*/commands等,通过子进程执行外部指令,并通过input/output/error管道获取子进程的执行返回信息
+
+
+	12.logging模块:
+		1.
+		2.logging模块记录日志涉及四个主要类:
+			1.logger:提供了应用程序可以直接使用的接口
+				1.每个程序在输出信息之前都要获得一个Logger,Logger通常对应了程序的模块名,比如聊天工具的图形界面模块可以这样获得它的Logger:
+					1.LOG = logging.getLogger("chat.gui")
+					2.核心模块:LOG = logging.getLogger("chat.kernel")
+			2.handle:将logger创建的日志记录发送到合适的目的地输出
+			3.filter:提供了细度设备来决定输出那条日志记录
+			4.formatter:决定日志记录的最终输出格式
+
+
+	13.re模块:正则表达式匹配模块
+		1.常用的表达式规则:
+			1.'.':默认匹配除\n之外的任意一个字符,若指定flag DOTALL,则匹配任意字符,包括换行
+			2.'^':匹配字符开头,若指定flags MULTILINE,这种也可以匹配上(r"^a","\nabc\neee",flags = re.MULTILINE)
+			3."$":匹配字符结尾.若指定flags MULTILINE,这种也可以匹配上re.search('foo.$','foo1\nfoo2\n',re.MULTILINE).group()
+			4.'*':匹配*号前的字符0次或多次,re.search('a*','aaaaabc'),结果为aaaaa
+			5.'+':匹配前一个字符1次或多次,re.search('ab+',"ab+cd+abb+bba"),结果为['ab','abb']
+			6.'?':匹配前一个字符0次或1次,re.search('b?',"alex").group(),结果为0次
+			7.'{m}':匹配前一个字符m次,re.search('b{3}','alexbbbs').group(),结果为bbb
+			8.'{n,m}':匹配前一个字符n到m次,re.findall('ab{1,3}',"abb abc abbcbbb"),结果为['abb','ab','abb']
+			9.'|':匹配|左或|右的字符,re.search("abc|ABC","ABCBabcCD").group(),结果为'ABC'
+			10.'(...)':分组匹配,re.search("(abc){2}a(123|45)","abcabca456c").group(),结果为'abcabca45',用groups()方法查看
+			11.'\A':只从字符开头匹配
+			12.'\Z':匹配字符结尾,同$
+			13.'\d':匹配数字0-9
+			14.'\D':匹配非数字
+			15.'\w':匹配[0-9A-Za-z]
+			16.'\W':匹配非[0-9A-Za-z]
+			17.'s':匹配空白字符,\t,\n,\r
+			18.'(?P<name>....)':分组匹配,re.search("(?P<province>[0-9]{4})(?P<city>[0-9]{4})"),使用groupdict()方法,将结果组装成字典
+
+		2.re模块的匹配语法:
+			1.re.match:从头开始匹配,返回一个对象,用group()方法取出匹配的值
+			2.re.search:全局匹配包含,匹配到就返回一个对象,用group()方法取出匹配的值
+			3.re.findall(partnel,str):把所有匹配到的字符放到以列表中的元素返回
+			4.re.split:以匹配到的字符当做列表分隔符
+			5.re.sub(pattern,repl,string,count=0,flags=0):匹配字符并替换
+			re.fullmatch:全部匹配
+			6.re.compile(pattern,flags=0):返回一个匹配规则对象,再去调用match(string)
+
+
+		3.flags标志位:
+			1.re.I:忽略大小写
+			2.M:多行模式,改变'^'和'$'的行为
+			3.S:改变'.'的行为
+			4.X:可以给表达式写注释,使其更可读
+
+
+
+9.类和对象：对象的三大特性，继承、多态和封装
+	1.继承：子类可以继承父类的内容，继承其实就是将多个类共有的方法提取到父类中，子类仅需继承父类而不必一一实现每个方法
+		1.在子类派生出的新方法中重用父类的方法，两种实现方式：
+			1.直接调取相应方法(不依赖继承关系)，例如：父类.方法名（self,参数）
+			2.super(自己类名,self).__init__()(依赖继承关系)(python2写法)  |  super().__init__(参数)(python3写法)，super产生一个特殊对象，不需要传self参数，super根据类mro列表顺序去查找
+		
+		2.继承的实现原理：
+			1.三原则
+				1.子类会先于父类被查找
+				2.多个父类会根据它们在列表中的顺序被查找
+				3.如果对下一个类存在两个合法的选择，选择第一个父类
+			2.经典类按深度优先方式查找，顺着父类继承的关系一路查找下去
+			3.新式类按广度优先方式查找，顺着父类继承的关系查找，没有再去平行父类中查找
+
+	2.组合：在一个类中以另外一个类的对象作为数据属性，称为类的组合
+
+	3.抽象类：是一个特殊的类，只能被继承，不能被实例化
+		1.为什么要有抽象类：如果说类是从一堆对象中抽取相同的内容而来的，那么抽象类就是从一堆类中抽取相同的内容而来的，内容包括数据属性和函数属性
+		2.抽象类只能有抽象方法（没有实现功能），该类不能被实例化，只能被继承，且子类必须实现抽象方法
+
+	4.多态性：指在不考虑实例类型的情况下使用实例，多态性分为静态多态性和动态多态性
+		1.静态多态性：如任何类型都可以用运算符+进行运算
+		2.动态多态性：
+
+		3.多态性的好处：
+			1.增加了程序的灵活性
+			2.增加了程序的可扩展性
+
+
+	5.类的成员分为三大类：字段、方法和属性
+		1.字段：
+			1.普通字段，普通字段属于对象
+			2.静态字段，静态字段属于类
+		2.方法：普通方法、类方法、静态方法
+		3.属性：普通属性
+
+
+
+
+
+前端知识:
+1.<!DOCTYPE html>标签:告诉浏览器用什么规范解析本文件
+2.head标签:此标签里面的内容不展示在浏览器上
+	1.<meta>标签:有两个属性,http-equiv和name属性
+		1.name属性主要用于描述网页
+		2.http-equiv属性相当于http的文件头作用
