@@ -497,6 +497,12 @@
 		2.非绑定方法，不与类或对象绑定，没有自动传值功能，被staticmethod装饰器修饰，不需要传入self和cls参数，类和对象都可以调用
 
 
+	7.反射：通过字符串映射到对象的属性
+		1.hasattr(obj,str):判断对象obj是否有str属性
+		2.getattr(obj,str,default):获取对象obj的str属性
+		3.setattr(obj, str, value):设置str的属性
+		4.delattr(obj, str):删除对象obj的属性
+
 	6.类的成员分为三大类：字段、方法和属性
 		1.字段：
 			1.普通字段，普通字段属于对象
