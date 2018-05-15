@@ -498,9 +498,10 @@
 
 
 	7.反射：通过字符串映射到对象的属性
-		1.hasattr(obj,str):判断对象obj是否有str属性
-		2.getattr(obj,str,default):获取对象obj的str属性
-		3.setattr(obj, str, value):设置str的属性
+		1.hasattr(obj,str):判断对象obj是否有str属性，有str属性返回True，否则返回False
+		2.getattr(obj,str,[,default]):获取对象obj的str属性，如果有str属性就返回该str，不存在就打印默认值，默认值可选
+			1.注意：如果是返回对象的方法，返回的是方法的内存地址，如果需运行这个方法，可以在后面添加一对括号
+		3.setattr(obj, str, value):设置str的属性，若str属性不存在，则先创建再赋值
 		4.delattr(obj, str):删除对象obj的属性
 
 	8.类的成员分为三大类：字段、方法和属性
