@@ -395,15 +395,31 @@
 
 
 	12.logging模块:
-		1.
-		2.logging模块记录日志涉及四个主要类:
+		1.logging模块记录日志涉及四个主要类:
 			1.logger:提供了应用程序可以直接使用的接口
 				1.每个程序在输出信息之前都要获得一个Logger,Logger通常对应了程序的模块名,比如聊天工具的图形界面模块可以这样获得它的Logger:
 					1.LOG = logging.getLogger("chat.gui")
 					2.核心模块:LOG = logging.getLogger("chat.kernel")
 			2.handle:将logger创建的日志记录发送到合适的目的地输出
+				1.每个Logger可以附加多个Handler
+					1.logging.StreamHandler:可以向终端输出信息
+					2.logging.FileHandler:可以向文件输出信息
+					3.logging.handler.RotatingFileHandler:可以管理文件大小，当文件达到一定大小之后，会自动将当前文件改名，然后创建一个新的同名文件继续输出
+						1.RotatingFileHandler(filename[,mode[,maxBytes[,backupCount]]])
+							1.maxBytes:用于指定日志文件的最大文件大小，如果为0，则意味着文件可以无限大
+							2.backupCount:用于指定保留备份文件的个数
+					4.logging.handler.TimeRotatingFileHandler:间隔一定时间就自动创建新的日志文件
+						1.TimedRotatingFileHandler(filename[,when[,interval[,backupCount]]])
+							1.interval:表示时间间隔
 			3.filter:提供了细度设备来决定输出那条日志记录
 			4.formatter:决定日志记录的最终输出格式
+
+		2.logging日志级别分为以下五种：
+			1.DEBUG
+			2.INFO
+			3.WARNING
+			4.ERROR
+			5.CRITICAL
 
 
 	13.re模块:正则表达式匹配模块
