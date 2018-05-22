@@ -192,15 +192,17 @@
 				1.return:返回函数值并终止程序
 				2.yield:返回函数数据,并冻结当前函数的执行过程
 			3.send()方法唤醒生成器并继续执行;发送一个信息到生成器内部
+				1.第一次send前没有next()就不能传值，只能send(None)等同于next(函数对象)，因为第一次不知道赋值给谁
 
 
-7.迭代器:可以直接用于for循环的对象统称为可迭代对象Iterable
-	1.可以使用isinstance()判断一个对象是否是Iterable
+7.迭代器:可以直接用于for循环的对象统称为可迭代对象(Iterable)
+	1.可以使用isinstance()判断一个对象是否是可迭代对象(Iterable)
 		1.from collections import Iterable
 				isinstance("list",Iterable)
 	2.可以被next()函数调用并不断返回下一个值的对象称为迭代器
-	3.生成器都是迭代器(Iterator),list/dict/str是Iterable,却不是Iterator
-	4.把lsit/dict/str等Iterable变成Iterator可以使用iter()函数
+		1.迭代器有iter()和next()方法
+	3.生成器都是迭代器(Iterator),list/dict/str/tuple是可迭代对象(Iterable),却不是迭代器(Iterator)
+	4.把lsit/dict/str/tuple等可迭代对象(Iterable)变成迭代器(Iterator)可以使用iter(参数)函数，返回一个迭代器对象
 
 
 8.模块:在python,一个.py文件就称为一个模块
